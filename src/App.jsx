@@ -40,7 +40,6 @@ class App extends Component {
   }
 
   handlePageChange(data) {
-    console.log('data.selected :', data.selected);
     return this.setState({ currentPage: data.selected });
   }
 
