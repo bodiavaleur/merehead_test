@@ -70,7 +70,7 @@ class App extends Component {
         <ReactPaginate
           previousLabel={<i className="fas fa-angle-left" />}
           nextLabel={<i className="fas fa-angle-right" />}
-          pageCount={Math.round(this.props.data.length)}
+          pageCount={this.props.data.length}
           initialPage={0}
           onPageChange={this.handlePageChange}
           containerClassName="pagination"
